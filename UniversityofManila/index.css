@@ -1,0 +1,347 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    scroll-behavior: smooth;
+    background:  linear-gradient(to left, #09260B, #054F08 , #AD7A00 130%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    flex-wrap: wrap;
+    max-width: 900px;
+    text-align: center;
+}
+
+.name{
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title h2{ 
+    color: whitesmoke;
+    margin: 2px ;
+}
+.name h3{
+    color: rgb(192, 179, 0);
+    margin: 0;
+}
+
+.container{
+    
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+#ums{
+    border: 5px solid;
+    border-color: #D4AD00;
+    border-radius: 100px;
+    
+}
+#cs2{
+    border: 2px solid orangered;
+    border-radius: 15px; 
+}
+
+.buttos{
+    flex-wrap: wrap;
+  width: 100%;
+  max-width: 500px;
+    display: flex;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+#History{
+    width: 100px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#History:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
+
+#M{
+     width: 100px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#M:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
+#Vision{
+       width: 100px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#Vision:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
+#Motto{
+       width: 80px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#Motto:hover{
+     background-color: #c70909;
+     box-shadow: 2px 4px 5px chartreuse;
+}
+#CS{
+     width: 150px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#CS:hover{
+     background-color: #c70909;
+       box-shadow: 2px 4px 5px chartreuse;
+}
+
+#prof{
+       width: 100px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto; 
+    transition: 0.5s;
+}
+#prof:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
+#devs{
+    width: 90px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto; 
+    transition: 0.5s;
+}
+#devs:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
+
+.Con{
+     min-height: 200px;
+     height: auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    width: 70%;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 20px;
+    background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
+}
+.f{
+    color: goldenrod;
+    font-weight: bold;
+    
+}
+.h{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serifs;
+}
+.s{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Key {
+      background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
+    border-radius: 15px;
+    width: 70%;
+    margin-top: 50px;
+    border: 2px;
+    border-left: 10px solid;
+    color: whitesmoke;
+    border-color: #c70909;
+    transition: 0.2s;
+    padding: 15px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    transition: 0.7s;
+    
+
+}
+.Key:hover{
+      border-color: rgb(255, 183, 0);
+    color: black;
+    background-image: url("Images/shesh.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#stone{
+    font-size: large;
+    margin-left: 10px;
+}
+.arman{
+    margin-left: 50px;
+    font-size: larger;
+    font-family: American Typewriter, serif;
+}
+.font{
+    font-family:"Berkshire Swash", cursive;
+    font-weight: bolder;
+    margin-left: 60px
+}
+
+.location{
+    flex-wrap: wrap;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-left: 1px;
+    width: 70%;
+    height: 400px;
+     background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
+}
+#location{
+    border-radius: 0 0  15px 15px;
+}
+.location p{
+     font-size: larger;
+    color: goldenrod;
+  margin-left: 15px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+@media (max-width: 500px) {
+  .Con{
+     min-height: 200px;
+     height: auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid red;
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 10px;
+    background-color: #3b5200;
+}
+
+.Key {
+     background-color: #3b5200;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 50px;
+    border: 4px solid red;
+    
+    color: whitesmoke;
+    padding: 15px;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    transition: 0.6s;
+}
+.Key:hover{
+    color: black;
+}
+.arman{
+    margin-left: 30px;
+    font-size: large;
+    font-family: American Typewriter, serif;
+}
+.font{
+    margin-left: 35px
+}
+.location{
+    flex-wrap: wrap;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-left: 1px;
+    width: 100%;
+    height: 400px;
+     background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
+}
+#location{
+     
+    width: 100%;
+    height: 73%;
+    flex-wrap: wrap;
+    
+}
+.location p{
+    font-size: larger;
+    color: goldenrod;
+  margin-left: 15px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+
+}

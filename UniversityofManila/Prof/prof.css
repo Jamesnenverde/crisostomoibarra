@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    scroll-behavior: smooth;
+    background:  linear-gradient(to left, #09260B, #054F08 , #AD7A00 130%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    flex-wrap: wrap;
+    max-width: 900px;
+    text-align: center;
+}
+
+.name{
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title h2{ 
+    color: whitesmoke;
+    margin: 2px ;
+}
+.name h3{
+    color: rgb(192, 179, 0);
+    margin: 0;
+}
+
+.container{
+    
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+#ums{
+    border: 5px solid;
+    border-color: #D4AD00;
+    border-radius: 100px;
+    
+}
+#cs2{
+    border: 2px solid orangered;
+    border-radius: 15px; 
+}
+
+.buttos{
+    flex-wrap: wrap;
+  width: 100%;
+  max-width: 500px;
+    display: flex;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+#History{
+    width: 100px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#History:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
+
+#M{
+     width: 100px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#M:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
+#Vision{
+       width: 100px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#Vision:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
+#Motto{
+       width: 80px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#Motto:hover{
+     background-color: #c70909;
+     box-shadow: 2px 4px 5px chartreuse;
+}
+#CS{
+     width: 150px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#CS:hover{
+     background-color: #c70909;
+       box-shadow: 2px 4px 5px chartreuse;
+}
+
+#prof{
+       width: 100px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto; 
+    transition: 0.5s;
+}
+#prof:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
+#devs{
+    width: 90px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto; 
+    transition: 0.5s;
+}
+#devs:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
