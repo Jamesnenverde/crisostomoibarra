@@ -136,7 +136,7 @@
     flex-wrap: wrap;
     width: 70%;
     height: auto;
-    border: 4px solid white;
+    border: 2px solid white;
     padding-left: 25px;
     border-radius: 15px;
     background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
@@ -156,7 +156,7 @@
     flex-wrap: wrap;
     width: 70%;
     height: auto;
-    border: 4px solid white;
+    border: 2px solid white;
     padding-left: 25px;
     border-radius: 15px;
     background: linear-gradient(to right, #169416, #1E471E, goldenrod 120%);
@@ -174,7 +174,7 @@
     flex-wrap: wrap;
     width: 70%;
     height: auto;
-    border: 4px solid white;
+    border: 2px solid white;
     padding-left: 25px;
     border-radius: 15px;
     background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
@@ -187,6 +187,23 @@
     color: whitesmoke;
 }
 
+.Objectives{
+ margin-top: 30px;
+    flex-wrap: wrap;
+    width: 70%;
+    height: auto;
+    border: 2px solid white;
+    padding-left: 25px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
+}
+.Objectives h1{
+    color: whitesmoke;
+}
+
+.Objectives p{
+    color: whitesmoke;
+}
 
 @keyframes hello {
     0%{
@@ -292,6 +309,20 @@
     border-radius: 15px;
     background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
 }
+
+
+.Objectives{
+ margin-top: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+    padding-left: 25px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
+}
+
+
 .Family #F{
     width: 250px;
     max-width: 100%;
