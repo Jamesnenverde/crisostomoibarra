@@ -167,7 +167,7 @@
 .content{
     scroll-behavior: smooth;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin: 50px auto 0;
    background-color: #3b5200;
     border: 3px solid goldenrod;
     width: 100%;
