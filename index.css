@@ -17,6 +17,11 @@ body{
     text-align: center;
 }
 
+#icon{
+    border: 2px solid;
+    border-radius: 15px;
+}
+
 .name{
     margin-top: 1px;
     display: flex;
