@@ -75,14 +75,17 @@
 }
 
 .content{
+    background-color: #3b5200;
+    padding: 10px;
     flex-wrap: wrap;
     margin-top: 50px;
-   background-color: #3b5200;
-    border: 3px solid goldenrod;
-    width: 320px;
-   height: 1050px;
-    margin-left: 10px;
+    border: 3px solid white;
     border-radius: 20px;
+    width: 700px;
+    height: 100px;
+    min-height: 900px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .Family{
@@ -99,7 +102,7 @@
 }
 
 .Family #F{
-    width: 250px;
+    width: 200px;
     max-width: 100%;
    height: auto;
 }
