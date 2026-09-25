@@ -84,6 +84,7 @@
     width: 700px;
     height: 100px;
     min-height: 900px;
+    margin-right: 5px;
     box-sizing: border-box;
     overflow: hidden;
 }
