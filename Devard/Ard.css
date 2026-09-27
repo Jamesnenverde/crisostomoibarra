@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-       
+    margin-right: 15px;
     margin-top: 30px; 
     flex-direction: row;
     gap: 20px;
@@ -134,7 +134,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-  
+    margin-right: 20px;
     margin-top: 30px; 
     flex-direction: row;
     gap: 20px;
@@ -165,17 +165,7 @@
     margin-right: 50px;
 }
 
-.Developers{
-    border-radius: 20px;
-   display: flex;
-   flex-wrap: wrap  ;
-   align-items: flex-start;
-   justify-content: center;
-   width: 100%;
-   margin-left: 60px;
-   margin-top: 30px; 
-   flex-direction: row;
-}
+
 
 .content{
     scroll-behavior: smooth;
