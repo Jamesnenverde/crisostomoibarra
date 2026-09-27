@@ -139,6 +139,13 @@
     flex-direction: row;
     gap: 20px;
 }
+
+    #DeveloperArds{
+    border-radius: 20px;
+    width: 120px;
+    transition: 0.2s;
+    margin-left: 30px;
+}
     .web{
 
  
