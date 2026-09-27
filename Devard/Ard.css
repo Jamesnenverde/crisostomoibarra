@@ -156,16 +156,11 @@
     font-weight: bolder;
     font-size: 20px;
 }
-.text p{
+.text p, h2{
     flex-wrap:wrap;
-    margin-right: 50px;
-}
-.text h2{
-    flex-wrap:wrap;
-    margin-right: 50px;
-}
+    margin-right: 10px;
 
-
+}
 
 .content{
     scroll-behavior: smooth;
