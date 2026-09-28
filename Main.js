@@ -4,18 +4,18 @@ const root = document.documentElement;
 /* ---------- Data ---------- */
 // Each colour: car image + two colours that are mixed into the background
 const COLORS = [
-  { name: 'SILVER & BLUE', img: '../Images/GTR-removebg-preview.png', c1: '#9aa3b5', c2: '#1e56d6', dot: '#aab2c2' },
-  { name: 'PINK',          img: '../Images/GTRpink-removebg-preview.png',   c1: '#ff5fae', c2: '#7b1c66', dot: '#ff5fae' },
-  { name: 'GREEN',         img: '../Images/GTRgreen-removebg-preview.png',  c1: '#2fd45a', c2: '#0a4d2c', dot: '#2fd45a' },
-  { name: 'GOLD',          img: '../Images/GTRgold-removebg-preview.png',   c1: '#e2b445', c2: '#3a2a0c', dot: '#e2b445' },
-  { name: 'BLACK',         img: '../Images/GTRblack-removebg-preview.png',  c1: '#4a4f60', c2: '#c8cede', dot: '#222' },
-  { name: 'RED',           img: '../Images/GTRred-removebg-preview.png',    c1: '#e3243f', c2: '#2a4fb5', dot: '#e3243f' },
+  { name: 'SILVER & BLUE', img: 'Images/GTR-removebg-preview.png', c1: '#9aa3b5', c2: '#1e56d6', dot: '#aab2c2' },
+  { name: 'PINK',          img: 'Images/GTRpink-removebg-preview.png',   c1: '#ff5fae', c2: '#7b1c66', dot: '#ff5fae' },
+  { name: 'GREEN',         img: 'Images/GTRgreen-removebg-preview.png',  c1: '#2fd45a', c2: '#0a4d2c', dot: '#2fd45a' },
+  { name: 'GOLD',          img: 'Images/GTRgold-removebg-preview.png',   c1: '#e2b445', c2: '#3a2a0c', dot: '#e2b445' },
+  { name: 'BLACK',         img: 'Images/GTRblack-removebg-preview.png',  c1: '#4a4f60', c2: '#c8cede', dot: '#222' },
+  { name: 'RED',           img: 'Images/GTRred-removebg-preview.png',    c1: '#e3243f', c2: '#2a4fb5', dot: '#e3243f' },
 ];
 const VIEWS = [
-  { name: '3/4 FRONT VIEW', img: '../Images/GTR-removebg-preview.png' },
-  { name: 'SIDE VIEW',      img: '../Images/GTRposition1-removebg-preview.png' },
-  { name: 'FRONT VIEW',     img: '../Images/GTRposition2-removebg-preview.png' },
-  { name: 'REAR 3/4 VIEW',  img: '../Images/GTRposition3-removebg-preview.png' },
+  { name: '3/4 FRONT VIEW', img: 'Images/GTR-removebg-preview.png' },
+  { name: 'SIDE VIEW',      img: 'Images/GTRposition1-removebg-preview.png' },
+  { name: 'FRONT VIEW',     img: 'Images/GTRposition2-removebg-preview.png' },
+  { name: 'REAR 3/4 VIEW',  img: 'Images/GTRposition3-removebg-preview.png' },
 ];
 [...COLORS, ...VIEWS].forEach(o => { new Image().src = o.img; }); // preload
 
