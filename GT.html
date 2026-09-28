@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skyline GTR R34</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div id="bg"></div>
+
+  <header>
+    <a href="#home" class="logo">GT-R <b>R34</b></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#colors">GTR Color</a>
+      <a href="#parts">PARTS</a>
+      <a href="#history">SPECS</a>
+      <a href="Home/index.html">Developer</a>
+    </nav>
+  </header>
+
+  <!-- SECTION 1 : HERO + SLIDER + VIDEOS -->
+  <section id="home" data-theme="silver">
+    <h1 class="reveal">SKYLINE <span>GTR R34</span></h1>
+    <div class="stage">
+      <button class="arrow" id="prev" aria-label="Previous view">&#10094;</button>
+      <img id="heroCar" src="Images/GTR-removebg-preview.png" alt="Skyline GTR R34">
+      <button class="arrow" id="next" aria-label="Next view">&#10095;</button>
+    </div>
+    <p id="viewName" class="caption">3/4 FRONT VIEW</p>
+    <div class="dots" id="dots"></div>
+
+    <div class="videos reveal">
+      <figure>
+        <video controls preload="metadata" poster="Images/GTR-removebg-preview.png"><source src="Images/GTR Day light.mp4" type="video/mp4"></video>
+        <figcaption>GTR DAY LIGHT </figcaption>
+      </figure>
+      <figure>
+        <video controls preload="metadata" poster="Images/GTRposition2-removebg-preview.png"><source src="Images/GTRCITYNIGHT.mp4" type="video/mp4"></video>
+        <figcaption> GTR CITY NIGHT </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- SECTION 2 : COLORS -->
+  <section id="colors">
+    <h2 class="reveal">CHOOSE YOUR <span>COLOR</span></h2>
+    <div class="stage small"><img id="colorCar" src="Images/GTR-removebg-preview.png" alt="GTR in selected color"></div>
+    <p id="colorName" class="caption">SILVER &amp; BLUE</p>
+    <div class="swatches" id="swatches"></div>
+  </section>
+
+  <!-- SECTION 3 : PARTS -->
+  <section id="parts" data-theme="silver">
+    <h2 class="reveal">THE <span>ANATOMY</span></h2>
+    <div class="frame reveal"><img src="Images/GTRlabel.jpg" alt="GTR R34 parts labelled"></div>
+  </section>
+
+  <!-- SECTION 4 : HISTORY -->
+  <section id="history" data-theme="silver">
+
+    <h3 class="sub reveal">R34 GT-R SPECS</h3>
+    <div class="specs reveal">
+      <div><small>Engine</small>RB26DETT</div> <br>
+      <div><small>Layout</small>2.6L inline-6 twin turbo</div> <br>
+      <div><small>Rated power</small>280 PS</div> <br>
+      <div><small>Transmission</small>6-speed manual</div> <br>
+      <div><small>Drive</small>ATTESA E-TS AWD</div> <br>
+      <div><small>Suspension</small>Multilink</div> <br>
+      <div><small>Body</small>2-door coupe</div> <br>
+      <div><small>Chassis code</small>BNR34</div>
+    </div>
+
+  
+  <!-- DEVELOPER -->
+  <section id="developer" class="short" data-theme="silver">
+    <h2 class="reveal">DEVELOPER</h2>
+    <p class="caption">Designed &amp; developed by <b>Your Name</b> — edit this text in index.html</p>
+  </section>
+
+  <script src="Main.js"></script>
+</body>
+</html>
