@@ -270,10 +270,12 @@ body{
     padding-top: 10px;
     padding-left: 1px;
     width: 70%;
-    height: 400px;
+    height: 500px;
      background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
 }
 #location{
+    width: 100%;
+    height: 82%;
     border-radius: 0 0  15px 15px;
 }
 .location p{
