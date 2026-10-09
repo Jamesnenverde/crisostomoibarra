@@ -221,6 +221,7 @@
 .Event img{
     width: 30%;
     margin-left: 20px;
+    height: 200px;
 }
 
 
@@ -377,7 +378,8 @@
 .Event img{
     width:95%;
     height:170px;
-    margin-left: 20px;
- 
+    margin-left: 12px;
+    height: 200px;
 }
+
 }
