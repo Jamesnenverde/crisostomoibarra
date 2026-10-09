@@ -207,6 +207,7 @@
 
 
 .Event{
+    flex-wrap: wrap;
     margin-top: 25px;
     border: 2px solid white;
     border-radius: 10px;
@@ -219,6 +220,7 @@
 }
 
 .Event img{
+    flex-wrap: wrap;
     width: 30%;
     margin-left: 20px;
     height: 200px;
@@ -376,6 +378,7 @@
 }
 
 .Event img{
+    flex-wrap: wrap;
     width:95%;
     height:170px;
     margin-left: 12px;
