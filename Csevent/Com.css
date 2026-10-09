@@ -378,7 +378,6 @@
 }
 
 .Event img{
-    flex-wrap: wrap;
     width:95%;
     height:170px;
     margin-left: 12px;
