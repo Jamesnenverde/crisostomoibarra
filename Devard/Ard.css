@@ -98,6 +98,11 @@
      max-width: 100%;
      box-sizing: border-box;
 }
+.Family img{
+    width: 400px;
+    max-width: 100%;
+   height: auto;
+}
 
 .friends img{
      max-width: 100%;
