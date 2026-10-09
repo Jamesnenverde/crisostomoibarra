@@ -99,10 +99,10 @@
      box-sizing: border-box;
 }
 
-.Family #F{
-    width: 200px;
+.Family img{
+    width: 300px;
     max-width: 100%;
-   height: auto;
+   height: 250px;
 }
 .content p{
     margin-top: 20px ;
