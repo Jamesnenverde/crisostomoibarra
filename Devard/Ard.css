@@ -99,10 +99,11 @@
      box-sizing: border-box;
 }
 
-.Family img{
-    width: 300px;
-    max-width: 100%;
-   height: 250px;
+.friends img{
+     max-width: 100%;
+     width: 120px;
+     height: auto;
+     height: auto;
 }
 .content p{
     margin-top: 20px ;
