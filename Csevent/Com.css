@@ -205,6 +205,25 @@
     color: whitesmoke;
 }
 
+.Event{
+    margin-top: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 70%;
+    background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
+}
+.Event h2{
+    padding-left: 23px;
+    color: whitesmoke;
+}
+
+.events{
+    width:300px; 
+    height:170px;
+    padding-left: 20px;
+ 
+}
+
 @keyframes hello {
     0%{
         opacity: 1;
@@ -342,4 +361,27 @@
      max-width: 100%;
      height: auto;
 }
+
+.Event{
+    flex-wrap: wrap;
+    margin-top: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100%;
+    background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
+}
+.Event h2{
+    padding-left: 23px;
+    color: whitesmoke;
+}
+
+.events{
+    
+    width:450px;
+    height:170px;
+    padding-left: 20px;
+ 
+}
+
+
 }
