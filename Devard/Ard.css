@@ -118,9 +118,10 @@
      flex-direction: row;
      gap: 15px;
 }
-.friends #I{
-     max-width: 100%;
-     height: auto;
+.friends img{
+     max-width: 30%;
+     height: 100px;
+    height: 250px;
 }
 
 
@@ -209,8 +210,9 @@
      flex-direction: row;
      gap: 15px;
 }
-.friends #I{
+.friends img{
      max-width: 100%;
-     height: auto;
+     height: 100px;
+    height: 250px;
 }
 }
