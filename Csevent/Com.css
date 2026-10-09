@@ -205,9 +205,7 @@
     color: whitesmoke;
 }
 
-
 .Event{
-    flex-wrap: wrap;
     margin-top: 25px;
     border: 2px solid white;
     border-radius: 10px;
@@ -220,7 +218,6 @@
 }
 
 .Event img{
-    flex-wrap: wrap;
     width: 30%;
     margin-left: 20px;
     height: 200px;
@@ -363,6 +360,7 @@
 .friends #I{
      max-width: 100%;
      height: auto;
+}
 
 .Event{
     flex-wrap: wrap;
@@ -383,5 +381,6 @@
     margin-left: 12px;
     height: 200px;
 }
+
 
 }
