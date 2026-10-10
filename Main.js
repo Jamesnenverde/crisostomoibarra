@@ -97,7 +97,7 @@ COLORS.forEach((c, i) => {
   };
   sw.appendChild(b);
 });
-
+/*-----*/
 /* ---------- Scroll behaviour ---------- */
 // Colour section uses the picked colour; every other section goes back to silver/blue
 new IntersectionObserver(es => es.forEach(e => {
