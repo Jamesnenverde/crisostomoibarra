@@ -58,6 +58,29 @@ $('#prev').onclick = () => goView(view - 1);
 $('#next').onclick = () => goView(view + 1);
 goView(0);
 
+/* ---------- Prices + Add to Cart (shows the selected colour only) ---------- */
+const PRICES = {
+  'SILVER & BLUE': 2000000,
+  'PINK':          3000000,
+  'GREEN':         3100000,
+  'GOLD':          4000000,
+  'BLACK':         2000000,
+  'RED':           3000000,
+};
+const peso = n => '₱' + n.toLocaleString('en-PH');
+const cart = [];
+const cartCount = $('#cartCount'), addBtn = $('#addCart');
+const showPrice = c => { $('#price').textContent = peso(PRICES[c.name]); };
+showPrice(chosen);
+
+addBtn.onclick = () => {
+  cart.push({ name: chosen.name, price: PRICES[chosen.name] });
+  if (cartCount) cartCount.textContent = cart.length;
+  addBtn.textContent = 'Added ✓';
+  addBtn.classList.add('added');
+  setTimeout(() => { addBtn.textContent = 'Add to Cart'; addBtn.classList.remove('added'); }, 1200);
+};
+
 /* ---------- Section 2 : colour buttons ---------- */
 const sw = $('#swatches');
 COLORS.forEach((c, i) => {
@@ -70,6 +93,7 @@ COLORS.forEach((c, i) => {
     swapImg($('#colorCar'), c.img);
     $('#colorName').textContent = c.name;
     setTheme(c);
+    showPrice(c);
   };
   sw.appendChild(b);
 });
@@ -79,7 +103,7 @@ COLORS.forEach((c, i) => {
 new IntersectionObserver(es => es.forEach(e => {
   if (e.isIntersecting) setTheme(chosen);
 }), { threshold: 0.5 }).observe($('#colors'));
-['#home', '#parts', '#history', '#developer'].forEach(id => new IntersectionObserver(es => es.forEach(e => {
+['#home', '#parts', '#history', '#developer', '#location'].forEach(id => new IntersectionObserver(es => es.forEach(e => {
   if (e.isIntersecting) setTheme(COLORS[0]);
 }), { threshold: 0.4 }).observe($(id)));
 
