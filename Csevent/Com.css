@@ -202,6 +202,8 @@
 }
 
 .Objectives p{
+    text-align: justify;
+    line-height: 1;
     color: whitesmoke;
 }
 
@@ -304,9 +306,16 @@
     width: 100%;
     height: auto;
     border: 2px solid white;
-    padding-left: 25px;
+    padding-left: 15px;
+    padding-right: 5px;
     border-radius: 15px;
     background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
+}
+
+.Computer p{
+    text-align: justify;
+    line-height: 1.2;
+    padding-right: 5px;
 }
 .csmission{
  margin-top: 30px;
@@ -314,9 +323,18 @@
     width: 100%;
     height: auto;
     border: 2px solid white;
-    padding-left: 25px;
+    padding-left: 15px;
+    padding-right: 5px;
     border-radius: 15px;
     background: linear-gradient(to right, #169416, #1E471E, goldenrod 120%);
+}
+.csmission p{
+    flex-wrap: wrap;
+    text-align: justify;
+    line-height: 1.2;
+  
+   padding-right: 5px;
+    color: whitesmoke;
 }
 .csvision{
  margin-top: 30px;
@@ -324,7 +342,7 @@
     width: 100%;
     height: auto;
     border: 2px solid white;
-    padding-left: 25px;
+    padding-left: 15px;
     border-radius: 15px;
     background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
 }
@@ -336,12 +354,20 @@
     width: 100%;
     height: auto;
     border: 2px solid white;
-    padding-left: 25px;
+    padding-left: 15px;
+    padding-right: 5px;
     border-radius: 15px;
     background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
 }
 
-
+.Objectives p{
+    flex-wrap: wrap;
+    text-align: justify;
+    line-height: 1.2;
+  
+   padding-right: 5px;
+    color: whitesmoke;
+}
 .Family #F{
     width: 250px;
     max-width: 100%;
