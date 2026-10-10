@@ -1,3 +1,5 @@
+/* */
+
 /* Animatable theme colours: the background blends these two */
 @property --c1 { syntax: "<color>"; inherits: true; initial-value: #9aa3b5; }
 @property --c2 { syntax: "<color>"; inherits: true; initial-value: #1e56d6; }
