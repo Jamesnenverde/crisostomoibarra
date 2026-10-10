@@ -17,6 +17,7 @@
       <a href="#parts">Parts</a>
       <a href="#history">Specs</a>
       <a href="#developer">Developer</a>
+      <a href="#location">Location</a>
       <a href="Home/index.html">University</a>
     </nav>
   </header>
@@ -24,6 +25,12 @@
   <!-- SECTION 1 : HERO + SLIDER + VIDEOS -->
   <section id="home">
     <h1 class="reveal">SKYLINE <span>GTR R34</span></h1>
+    <p class="intro reveal">
+      The Nissan Skyline GT-R R34 is one of the most legendary Japanese sports cars ever produced by Nissan.
+      Introduced in 1999, it quickly gained worldwide recognition for its aggressive styling, advanced technology,
+      impressive performance, and enormous tuning potential. It is often nicknamed “Godzilla” because of the
+      GT-R’s dominance in motorsports and its reputation as a powerful rival to high-performance sports cars.
+    </p>
     <div class="stage">
       <button class="arrow" id="prev" aria-label="Previous view">&#10094;</button>
       <img id="heroCar" src="Images/GTR-removebg-preview.png" alt="Skyline GTR R34">
@@ -48,18 +55,22 @@
     </div>
   </section>
 
-  <!-- SECTION 2 : COLORS -->
+  <!-- SECTION 2 : COLORS + PRICES -->
   <section id="colors">
     <h2 class="reveal">CHOOSE YOUR <span>COLOR</span></h2>
     <div class="stage small"><img id="colorCar" src="Images/GTR-removebg-preview.png" alt="GTR in selected color"></div>
     <p id="colorName" class="caption">SILVER &amp; BLUE</p>
     <div class="swatches" id="swatches"></div>
+    <div class="buy reveal">
+      <span class="pr" id="price"></span>
+      <button class="cart-btn" id="addCart">Add to Cart</button>
+    </div>
   </section>
 
   <!-- SECTION 3 : PARTS -->
   <section id="parts">
     <h2 class="reveal">THE <span>ANATOMY</span></h2>
-    <div class="frame reveal"><img src="Images/GTRlabel.jpg" alt="GTR R34 parts labelled"></div>
+    <div class="frame reveal"><img src="Images/gptGTR.png" alt="GTR R34 parts labelled"></div>
   </section>
 
   <!-- SECTION 4 : SPECS -->
@@ -81,6 +92,18 @@
   <section id="developer" class="short">
     <h2 class="reveal">DEVELOPER</h2>
     <p class="caption">Designed &amp; developed by <b>ABELA ARMAN</b></p>
+  </section>
+
+  <!-- LOCATION -->
+  <section id="location" class="short">
+    <h2 class="reveal">FIND <span>US</span></h2>
+    <div class="map reveal">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9181.988492642962!2d121.01753216006091!3d14.624657679530786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b784262340d9%3A0xa71fe42c243a9495!2s16th%20avenue%20cubao!5e0!3m2!1sen!2sph!4v1791632936467!5m2!1sen!2sph"
+        style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        title="Location map"></iframe>
+    </div>
   </section>
 
   <script src="Main.js"></script>
