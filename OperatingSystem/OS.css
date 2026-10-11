@@ -16,6 +16,9 @@
     font-size: 20px;
     font-weight: bolder;
 }
+ .Windows h3{
+        color: lightblue;
+    }
 
 .Windows a{
     row-gap: 20px;
@@ -44,7 +47,6 @@
     border-left: 5px solid red;
 }
 
-.ver1:hover
 .version p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -77,6 +79,10 @@
     text-decoration: none;
     color: whitesmoke;
 }
+ .Macos h3{
+        color: darkgoldenrod;
+    }
+
 
 .Linux{
     display: flex;
@@ -91,10 +97,16 @@
     width: 100px;
 }
 .Linux p {
+    color: whitesmoke;
      text-align: justify;   
     font-size: 20px;
     font-weight: bolder;
 }
+
+    .Linux h3{
+        color: whitesmoke;
+    }
+
 
 .Linux a{
     row-gap: 20px;
