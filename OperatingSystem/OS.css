@@ -11,6 +11,8 @@
     width: 100px;
 }
 .Windows p {
+    text-align: justify;
+    color: lightblue;
     font-size: 20px;
     font-weight: bolder;
 }
@@ -61,6 +63,8 @@
     width: 100px;
 }
 .Macos p {
+    color: darkgoldenrod;
+    text-align: justify;
     font-size: 20px;
     font-weight: bolder;
 }
